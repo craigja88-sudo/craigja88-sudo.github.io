@@ -101,25 +101,13 @@
     <p class="kicker">US dumpster rental directory</p>
     <h1 id="home-h">Which dumpster do you need?</h1>
     <p class="lede">Find a city guide and a size that matches the job — local haulers run the trucks, and we do not invent reviews or permit fees.</p>
-    <div class="search-box" role="search">
+    <div class="search-box typeahead">
       <label for="city-search">Search cities</label>
-      <input id="city-search" type="search" placeholder="Chicago, Houston, Texas…" autocomplete="off">
+      <input id="city-search" type="search" placeholder="City or state" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="city-suggest">
+      <ul id="city-suggest" class="city-suggest" role="listbox" hidden></ul>
+      <p class="suggest-empty" id="city-suggest-empty" hidden>No published city matches. <a href="cities/index.html">Browse all cities</a>.</p>
     </div>
-    <div class="hero-meta">
-      <p class="search-meta" id="city-count" aria-live="polite">8 cities</p>
-      <a class="all-cities" href="cities/index.html">All 31 cities</a>
-    </div>
-    <ul class="city-grid" id="city-list">
-<li data-filter="los angeles ca california"><a href="cities/los-angeles-ca.html"><span>Los Angeles</span><span class="st">CA</span></a></li>
-<li data-filter="chicago il illinois"><a href="cities/chicago-il.html"><span>Chicago</span><span class="st">IL</span></a></li>
-<li data-filter="houston tx texas"><a href="cities/houston-tx.html"><span>Houston</span><span class="st">TX</span></a></li>
-<li data-filter="phoenix az arizona"><a href="cities/phoenix-az.html"><span>Phoenix</span><span class="st">AZ</span></a></li>
-<li data-filter="dallas tx texas"><a href="cities/dallas-tx.html"><span>Dallas</span><span class="st">TX</span></a></li>
-<li data-filter="san antonio tx texas"><a href="cities/san-antonio-tx.html"><span>San Antonio</span><span class="st">TX</span></a></li>
-<li data-filter="san diego ca california"><a href="cities/san-diego-ca.html"><span>San Diego</span><span class="st">CA</span></a></li>
-<li data-filter="jacksonville fl florida"><a href="cities/jacksonville-fl.html"><span>Jacksonville</span><span class="st">FL</span></a></li>
-    </ul>
-    <p class="empty-filter" id="city-empty">No match on this page. Try a state abbreviation, or <a href="cities/index.html">browse all 31 cities</a>.</p>
+    <p class="hero-meta"><a class="all-cities" href="cities/index.html">Browse all cities</a></p>
   </section>
 
   <section class="paths" aria-labelledby="paths-h">

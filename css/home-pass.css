@@ -5,7 +5,7 @@
 }
 
 .home .hero {
-  padding: 0.85rem 0 1.35rem;
+  padding: 1.25rem 0 1.75rem;
   margin-bottom: 1.5rem;
   border-bottom: 1px solid var(--rule);
 }
@@ -16,13 +16,14 @@
 }
 
 .home .hero .lede {
-  margin-bottom: 1.15rem;
+  margin-bottom: 1.25rem;
   max-width: 38rem;
 }
 
 .home .hero .search-box {
   margin: 0;
-  max-width: 28rem;
+  max-width: 36rem;
+  position: relative;
 }
 
 .home .hero .search-box label {
@@ -31,19 +32,12 @@
 }
 
 .home .hero .search-box input[type="search"] {
-  padding: 0.75rem 0.9rem;
+  padding: 0.85rem 1rem;
+  font-size: 1.12rem;
 }
 
 .home .hero-meta {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 0.35rem 1.15rem;
-  margin: 0.55rem 0 0.85rem;
-}
-
-.home .hero .search-meta {
-  margin: 0;
+  margin: 0.7rem 0 0;
 }
 
 .home .all-cities {
@@ -56,21 +50,51 @@
   text-decoration: underline;
 }
 
-.home .hero .city-grid {
-  grid-template-columns: 1fr 1fr;
-  gap: 0.45rem;
+.home .city-suggest {
+  list-style: none;
+  margin: 0;
+  padding: 0.25rem 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: 20;
+  background: var(--white);
+  border: 2px solid var(--ink);
+  border-top: 0;
+  max-height: 18rem;
+  overflow-y: auto;
 }
 
-.home .hero .city-grid a {
-  padding: 0.6rem 0.7rem;
-  font-size: 0.95rem;
+.home .city-suggest a,
+.home .city-suggest [role="option"] {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.75rem;
+  text-decoration: none;
+  color: var(--ink);
+  padding: 0.55rem 0.9rem;
+  cursor: pointer;
 }
 
-.home .hero .empty-filter {
-  padding: 0.6rem 0 0.15rem;
+.home .city-suggest a:hover,
+.home .city-suggest .is-active {
+  background: var(--paper-2);
 }
 
-/* Three paths */
+.home .city-suggest .st {
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-family: var(--mono);
+}
+
+.home .suggest-empty {
+  margin: 0.45rem 0 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
 .home .paths {
   margin: 0 0 0.25rem;
 }
@@ -131,7 +155,6 @@
   color: var(--ink);
 }
 
-/* Follow-up — quiet, not a marketplace */
 .home .follow-up {
   margin-top: 2rem;
   padding-top: 1.5rem;
@@ -156,7 +179,6 @@
   cursor: not-allowed;
 }
 
-/* FAQ stays, slightly tighter */
 .home .faq {
   margin-top: 2.25rem;
 }
@@ -167,23 +189,13 @@
 
 @media (min-width: 720px) {
   .home .hero {
-    padding-top: 1.15rem;
-    padding-bottom: 1.6rem;
+    padding-top: 1.6rem;
+    padding-bottom: 2rem;
   }
 
   .home .path-grid {
     grid-template-columns: 1fr 1.4fr;
     gap: 0.85rem;
     align-items: stretch;
-  }
-}
-
-@media (min-width: 960px) {
-  .home .hero .city-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-  .home .hero .city-grid a {
-    padding: 0.7rem 0.85rem;
   }
 }
