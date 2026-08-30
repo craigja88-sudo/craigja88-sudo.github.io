@@ -1,0 +1,189 @@
+/* Homepage pass — layers on site.css. Do not rewrite the live system. */
+
+.home .wrap {
+  padding-top: 1.15rem;
+}
+
+.home .hero {
+  padding: 0.85rem 0 1.35rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.home .hero h1 {
+  max-width: 16ch;
+  margin-bottom: 0.55rem;
+}
+
+.home .hero .lede {
+  margin-bottom: 1.15rem;
+  max-width: 38rem;
+}
+
+.home .hero .search-box {
+  margin: 0;
+  max-width: 28rem;
+}
+
+.home .hero .search-box label {
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+}
+
+.home .hero .search-box input[type="search"] {
+  padding: 0.75rem 0.9rem;
+}
+
+.home .hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem 1.15rem;
+  margin: 0.55rem 0 0.85rem;
+}
+
+.home .hero .search-meta {
+  margin: 0;
+}
+
+.home .all-cities {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.home .all-cities:hover {
+  text-decoration: underline;
+}
+
+.home .hero .city-grid {
+  grid-template-columns: 1fr 1fr;
+  gap: 0.45rem;
+}
+
+.home .hero .city-grid a {
+  padding: 0.6rem 0.7rem;
+  font-size: 0.95rem;
+}
+
+.home .hero .empty-filter {
+  padding: 0.6rem 0 0.15rem;
+}
+
+/* Three paths */
+.home .paths {
+  margin: 0 0 0.25rem;
+}
+
+.home .paths > h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.2rem;
+}
+
+.home .path-grid {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.home .path-grid article {
+  background: var(--white);
+  border: 1px solid var(--rule);
+  padding: 0.9rem 1rem 1rem;
+}
+
+.home .path-grid h3 {
+  margin: 0 0 0.3rem;
+  font-size: 0.78rem;
+  font-family: var(--mono);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--rust);
+  font-weight: 700;
+}
+
+.home .path-grid p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--ink-2);
+}
+
+.home .job-row {
+  list-style: none;
+  margin: 0.65rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.home .job-row a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--ink);
+  background: var(--paper-2);
+  border: 1px solid var(--rule);
+  padding: 0.28rem 0.55rem;
+  font-size: 0.82rem;
+}
+
+.home .job-row a:hover {
+  background: var(--paper-3);
+  color: var(--ink);
+}
+
+/* Follow-up — quiet, not a marketplace */
+.home .follow-up {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+}
+
+.home .follow-up h2 {
+  margin-top: 0;
+}
+
+.home .follow-up > p {
+  max-width: 40rem;
+}
+
+.home .follow-up .form {
+  background: var(--paper);
+  border-color: var(--rule);
+}
+
+.home .follow-up .btn[disabled] {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+/* FAQ stays, slightly tighter */
+.home .faq {
+  margin-top: 2.25rem;
+}
+
+.home .faq h2 {
+  margin-top: 0;
+}
+
+@media (min-width: 720px) {
+  .home .hero {
+    padding-top: 1.15rem;
+    padding-bottom: 1.6rem;
+  }
+
+  .home .path-grid {
+    grid-template-columns: 1fr 1.4fr;
+    gap: 0.85rem;
+    align-items: stretch;
+  }
+}
+
+@media (min-width: 960px) {
+  .home .hero .city-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .home .hero .city-grid a {
+    padding: 0.7rem 0.85rem;
+  }
+}

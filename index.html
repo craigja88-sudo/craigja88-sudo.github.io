@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Which Dumpster — dumpster rental sizes, permits, and city guides</title>
-<meta name="description" content="Find dumpster rental info by city. Compare 10–40 yard sizes, understand driveway vs street permits, see honest US price ranges, and request quotes.">
+<meta name="description" content="Find dumpster rental info by city. Compare 10–40 yard sizes, understand driveway vs street permits, and see honest US price ranges.">
 <link rel="canonical" href="https://craigja88-sudo.github.io/">
 <meta property="og:title" content="Which Dumpster — dumpster rental sizes, permits, and city guides">
-<meta property="og:description" content="Find dumpster rental info by city. Compare 10–40 yard sizes, understand driveway vs street permits, see honest US price ranges, and request quotes.">
+<meta property="og:description" content="Find dumpster rental info by city. Compare 10–40 yard sizes, understand driveway vs street permits, and see honest US price ranges.">
 <meta property="og:url" content="https://craigja88-sudo.github.io/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Which Dumpster">
@@ -18,7 +18,7 @@
 <meta property="og:image:alt" content="Which Dumpster — US dumpster rental directory">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Which Dumpster — dumpster rental sizes, permits, and city guides">
-<meta name="twitter:description" content="Find dumpster rental info by city. Compare 10–40 yard sizes, understand driveway vs street permits, see honest US price ranges, and request quotes.">
+<meta name="twitter:description" content="Find dumpster rental info by city. Compare 10–40 yard sizes, understand driveway vs street permits, and see honest US price ranges.">
 <meta name="twitter:image" content="https://craigja88-sudo.github.io/og-image.png">
 <meta name="theme-color" content="#161410">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -26,6 +26,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;700&family=IBM+Plex+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/site.css">
+<link rel="stylesheet" href="css/home-pass.css">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -73,7 +74,7 @@
 }
 </script>
 </head>
-<body>
+<body class="home">
 <a class="skip" href="#content">Skip to content</a>
 <header class="site-header">
   <div class="header-inner">
@@ -96,104 +97,57 @@
 </header>
 <main id="content">
 <div class="wrap">
-  <section class="hero">
+  <section class="hero" aria-labelledby="home-h">
     <p class="kicker">US dumpster rental directory</p>
-    <h1>Which dumpster do you actually need?</h1>
-    <p class="lede">City guide, size that matches the job, then quotes. We do not run the trucks — local haulers do. No fake reviews. No invented permit fees.</p>
-  </section>
-
-  <aside class="featured">
-    <p class="kicker">Featured city</p>
-    <h2>Dumpster rental in Miami</h2>
-    <p>Heat, hurricane season, condos, and HOAs. Driveway vs street still matters — check Miami-Dade or your municipality before a street drop.</p>
-    <div class="btn-row">
-      <a class="btn" href="cities/miami-fl.html">Miami guide</a>
-      <a class="btn btn-ghost" href="cities/index.html">All cities</a>
+    <h1 id="home-h">Which dumpster do you need?</h1>
+    <p class="lede">Find a city guide and a size that matches the job — local haulers run the trucks, and we do not invent reviews or permit fees.</p>
+    <div class="search-box" role="search">
+      <label for="city-search">Search cities</label>
+      <input id="city-search" type="search" placeholder="Chicago, Houston, Texas…" autocomplete="off">
     </div>
-  </aside>
-
-  <h2>Find your city</h2>
-  <p>Published guides. Type a city or state to filter.</p>
-  <div class="search-box" role="search">
-    <label for="city-search">Search cities</label>
-    <input id="city-search" type="search" placeholder="Miami, Houston, Texas…" autocomplete="off">
-  </div>
-  <p class="search-meta" id="city-count" aria-live="polite">31 cities</p>
-  <ul class="city-grid" id="city-list">
-<li data-filter="miami fl florida"><a href="cities/miami-fl.html"><span>Miami</span><span class="st">FL</span></a></li>
-<li data-filter="houston tx texas"><a href="cities/houston-tx.html"><span>Houston</span><span class="st">TX</span></a></li>
-<li data-filter="dallas tx texas"><a href="cities/dallas-tx.html"><span>Dallas</span><span class="st">TX</span></a></li>
-<li data-filter="austin tx texas"><a href="cities/austin-tx.html"><span>Austin</span><span class="st">TX</span></a></li>
-<li data-filter="phoenix az arizona"><a href="cities/phoenix-az.html"><span>Phoenix</span><span class="st">AZ</span></a></li>
-<li data-filter="atlanta ga georgia"><a href="cities/atlanta-ga.html"><span>Atlanta</span><span class="st">GA</span></a></li>
-<li data-filter="denver co colorado"><a href="cities/denver-co.html"><span>Denver</span><span class="st">CO</span></a></li>
-<li data-filter="tampa fl florida"><a href="cities/tampa-fl.html"><span>Tampa</span><span class="st">FL</span></a></li>
-<li data-filter="charlotte nc north carolina"><a href="cities/charlotte-nc.html"><span>Charlotte</span><span class="st">NC</span></a></li>
-<li data-filter="orlando fl florida"><a href="cities/orlando-fl.html"><span>Orlando</span><span class="st">FL</span></a></li>
-<li data-filter="nashville tn tennessee"><a href="cities/nashville-tn.html"><span>Nashville</span><span class="st">TN</span></a></li>
-<li data-filter="chicago il illinois"><a href="cities/chicago-il.html"><span>Chicago</span><span class="st">IL</span></a></li>
+    <div class="hero-meta">
+      <p class="search-meta" id="city-count" aria-live="polite">8 cities</p>
+      <a class="all-cities" href="cities/index.html">All 31 cities</a>
+    </div>
+    <ul class="city-grid" id="city-list">
 <li data-filter="los angeles ca california"><a href="cities/los-angeles-ca.html"><span>Los Angeles</span><span class="st">CA</span></a></li>
+<li data-filter="chicago il illinois"><a href="cities/chicago-il.html"><span>Chicago</span><span class="st">IL</span></a></li>
+<li data-filter="houston tx texas"><a href="cities/houston-tx.html"><span>Houston</span><span class="st">TX</span></a></li>
+<li data-filter="phoenix az arizona"><a href="cities/phoenix-az.html"><span>Phoenix</span><span class="st">AZ</span></a></li>
+<li data-filter="dallas tx texas"><a href="cities/dallas-tx.html"><span>Dallas</span><span class="st">TX</span></a></li>
 <li data-filter="san antonio tx texas"><a href="cities/san-antonio-tx.html"><span>San Antonio</span><span class="st">TX</span></a></li>
 <li data-filter="san diego ca california"><a href="cities/san-diego-ca.html"><span>San Diego</span><span class="st">CA</span></a></li>
 <li data-filter="jacksonville fl florida"><a href="cities/jacksonville-fl.html"><span>Jacksonville</span><span class="st">FL</span></a></li>
-<li data-filter="fort worth tx texas"><a href="cities/fort-worth-tx.html"><span>Fort Worth</span><span class="st">TX</span></a></li>
-<li data-filter="columbus oh ohio"><a href="cities/columbus-oh.html"><span>Columbus</span><span class="st">OH</span></a></li>
-<li data-filter="indianapolis in indiana"><a href="cities/indianapolis-in.html"><span>Indianapolis</span><span class="st">IN</span></a></li>
-<li data-filter="seattle wa washington"><a href="cities/seattle-wa.html"><span>Seattle</span><span class="st">WA</span></a></li>
-<li data-filter="portland or oregon"><a href="cities/portland-or.html"><span>Portland</span><span class="st">OR</span></a></li>
-<li data-filter="las vegas nv nevada"><a href="cities/las-vegas-nv.html"><span>Las Vegas</span><span class="st">NV</span></a></li>
-<li data-filter="detroit mi michigan"><a href="cities/detroit-mi.html"><span>Detroit</span><span class="st">MI</span></a></li>
-<li data-filter="memphis tn tennessee"><a href="cities/memphis-tn.html"><span>Memphis</span><span class="st">TN</span></a></li>
-<li data-filter="baltimore md maryland"><a href="cities/baltimore-md.html"><span>Baltimore</span><span class="st">MD</span></a></li>
-<li data-filter="milwaukee wi wisconsin"><a href="cities/milwaukee-wi.html"><span>Milwaukee</span><span class="st">WI</span></a></li>
-<li data-filter="albuquerque nm new mexico"><a href="cities/albuquerque-nm.html"><span>Albuquerque</span><span class="st">NM</span></a></li>
-<li data-filter="tucson az arizona"><a href="cities/tucson-az.html"><span>Tucson</span><span class="st">AZ</span></a></li>
-<li data-filter="sacramento ca california"><a href="cities/sacramento-ca.html"><span>Sacramento</span><span class="st">CA</span></a></li>
-<li data-filter="kansas city mo missouri"><a href="cities/kansas-city-mo.html"><span>Kansas City</span><span class="st">MO</span></a></li>
-<li data-filter="raleigh nc north carolina"><a href="cities/raleigh-nc.html"><span>Raleigh</span><span class="st">NC</span></a></li>
-  </ul>
-  <p class="empty-filter" id="city-empty">No published city matches that. Try a state abbreviation, or <a href="cities/index.html">browse the full list</a>.</p>
+    </ul>
+    <p class="empty-filter" id="city-empty">No match on this page. Try a state abbreviation, or <a href="cities/index.html">browse all 31 cities</a>.</p>
+  </section>
 
-  <h2>How it works</h2>
-  <ol class="steps">
-    <li><strong>Pick the city.</strong> Climate, construction mix, and which desk to ask about permits — not a fake fee table.</li>
-    <li><strong>Pick a size.</strong> 10, 15, 20, 30, or 40 cubic yards. Most home jobs are a 10 or a 20.</li>
-    <li><strong>Request quotes.</strong> ZIP, debris type, driveway or street.</li>
-    <li><strong>Compare weight and days, not just the headline price.</strong> Overage and extra haul-aways are how cheap quotes get expensive.</li>
-  </ol>
+  <section class="paths" aria-labelledby="paths-h">
+    <h2 id="paths-h">Or start with the job</h2>
+    <div class="path-grid">
+      <article>
+        <h3>Size</h3>
+        <p>10, 15, 20, 30, or 40 cubic yards. Most home jobs are a 10 or a 20. <a href="sizes.html">Full size guide and project chooser</a>.</p>
+      </article>
+      <article>
+        <h3>Job</h3>
+        <p>Concrete and dirt get a weight warning.</p>
+        <ul class="job-row">
+          <li><a href="guides/roof.html">Roof tear-off</a></li>
+          <li><a href="guides/kitchen-remodel.html">Kitchen remodel</a></li>
+          <li><a href="guides/garage-cleanout.html">Garage cleanout</a></li>
+          <li><a href="guides/whole-house-cleanout.html">Whole-house cleanout</a></li>
+          <li><a href="guides/concrete-dirt.html">Concrete and dirt</a></li>
+        </ul>
+      </article>
+    </div>
+  </section>
 
-  <h2>Project guides</h2>
-  <p>Start with the job. Concrete and dirt get a weight warning.</p>
-  <ul class="city-grid">
-    <li><a href="guides/roof.html"><span>Roof tear-off</span><span class="st">Usually 20-yard</span></a></li>
-    <li><a href="guides/kitchen-remodel.html"><span>Kitchen remodel</span><span class="st">Usually 15-yard</span></a></li>
-    <li><a href="guides/garage-cleanout.html"><span>Garage cleanout</span><span class="st">15–20 yard</span></a></li>
-    <li><a href="guides/whole-house-cleanout.html"><span>Whole-house cleanout</span><span class="st">Usually 20-yard</span></a></li>
-    <li><a href="guides/concrete-dirt.html"><span>Concrete and dirt</span><span class="st">Weight warning</span></a></li>
-  </ul>
-
-  <h2>Size snapshot</h2>
-  <p>Common US roll-off sizes. Footprints are typical, not a guarantee — trucks and boxes vary.</p>
-  <div style="overflow-x:auto">
-  <table class="spec-table">
-    <thead>
-      <tr><th scope="col">Size</th><th scope="col">Typical home jobs</th><th scope="col">About this long</th></tr>
-    </thead>
-    <tbody>
-      <tr><td class="num">10 yard</td><td>Bathroom remodel, small deck, light cleanout</td><td class="num">~12 ft</td></tr>
-      <tr><td class="num">15 yard</td><td>Kitchen, garage, medium cleanout</td><td class="num">~16 ft</td></tr>
-      <tr><td class="num">20 yard</td><td>Roof, whole-house cleanout — the usual default</td><td class="num">~22 ft</td></tr>
-      <tr><td class="num">30 yard</td><td>Large remodel, addition debris</td><td class="num">~22 ft, taller</td></tr>
-      <tr><td class="num">40 yard</td><td>New construction, major tear-out</td><td class="num">~22 ft, tallest</td></tr>
-    </tbody>
-  </table>
-  </div>
-  <p><a href="sizes.html">Full size guide and project chooser</a></p>
-
-  <h2 id="quotes">Request quotes</h2>
-  <p>Quote matching is a placeholder until we wire haulers. Send the form if you want a follow-up, or email directly.</p>
-  <p class="disclosure">We may earn a commission if you book through this site.</p>
-  <form class="form js-quote" action="#" method="post" novalidate>
+  <section class="follow-up" id="quotes" aria-labelledby="follow-h">
+    <h2 id="follow-h">Want a follow-up?</h2>
+    <p>Quote matching is not live. This form does not ping haulers or run a marketplace — it opens an email so we can follow up later.</p>
+    <p class="disclosure">We may earn a commission if you book through this site.</p>
+    <form class="form js-quote" action="mailto:craigja88@gmail.com" method="post" enctype="text/plain" novalidate>
       <div class="form-row">
         <label for="q-city">City</label>
         <input id="q-city" name="city" type="text" autocomplete="address-level2" required>
@@ -236,9 +190,10 @@
         <label for="q-notes">Notes (dates, driveway vs street)</label>
         <textarea id="q-notes" name="notes"></textarea>
       </div>
-      <button class="btn" type="submit">Request quotes</button>
+      <button class="btn" type="submit">Email a follow-up</button>
       <p class="form-status">Quote matching is not live yet. Email <a href="mailto:craigja88@gmail.com">craigja88@gmail.com</a> with your city, size, and dates and we will follow up. We may earn a commission if you later book through this site.</p>
     </form>
+  </section>
 
   <section class="faq" aria-labelledby="faq-h">
     <h2 id="faq-h">Quick answers</h2>
@@ -280,5 +235,6 @@
   </div>
 </footer>
 <script src="js/site.js"></script>
+<script src="js/home-pass.js"></script>
 </body>
 </html>
