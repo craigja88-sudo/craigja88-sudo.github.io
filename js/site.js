@@ -3,10 +3,24 @@
 
   var navToggle = document.querySelector(".nav-toggle");
   var nav = document.querySelector(".site-nav");
+  function setNavOpen(open) {
+    if (!navToggle || !nav) return;
+    nav.classList.toggle("is-open", open);
+    navToggle.setAttribute("aria-expanded", open ? "true" : "false");
+    navToggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+  }
   if (navToggle && nav) {
+    if (!navToggle.getAttribute("aria-label")) {
+      navToggle.setAttribute("aria-label", "Open menu");
+    }
     navToggle.addEventListener("click", function () {
-      var open = nav.classList.toggle("is-open");
-      navToggle.setAttribute("aria-expanded", open ? "true" : "false");
+      setNavOpen(!nav.classList.contains("is-open"));
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && nav.classList.contains("is-open")) {
+        setNavOpen(false);
+        navToggle.focus();
+      }
     });
   }
 
@@ -49,6 +63,7 @@
   var chooser = document.getElementById("size-chooser");
   var chooserOut = document.getElementById("size-chooser-result");
   if (chooser && chooserOut) {
+    chooserOut.setAttribute("aria-live", "polite");
     var recs = {
       "": { size: "", text: "Pick a project type to see a typical size. This is a starting point — a hauler can confirm once they know the debris." },
       bathroom: { size: "10-yard", text: "A 10-yard dumpster covers most single-bathroom remodels (tile, vanity, tub). If you are opening walls on more than one room, step up to 15." },

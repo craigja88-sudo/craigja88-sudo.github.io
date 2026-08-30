@@ -6,7 +6,7 @@
   --paper-3: #ddd3c0;
   --ink: #161410;
   --ink-2: #2c2822;
-  --muted: #5e574c;
+  --muted: #4f493f;
   --rule: #c9bea8;
   --rust: #b4411a;
   --rust-dark: #8a3012;
@@ -588,3 +588,61 @@ ul.plain li { margin-bottom: 0.35rem; }
 }
 
 .site-header .brand-mark { font-size: 1.02rem; }
+
+/* Featured ghost button (dark panel) */
+.featured .btn-ghost {
+  border-color: #cfc6b4;
+  color: #f2ece1;
+}
+.featured .btn-ghost:hover {
+  background: var(--paper);
+  color: var(--ink);
+  border-color: var(--paper);
+}
+
+html { scroll-padding-top: calc(var(--header-h) + 0.5rem); }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.page-404 .code {
+  font-family: var(--mono);
+  font-size: clamp(2.5rem, 8vw, 4.5rem);
+  color: var(--rust);
+  letter-spacing: 0.04em;
+  margin: 0 0 0.35rem;
+  line-height: 1;
+}
+
+.hauler-points {
+  list-style: none;
+  margin: 0 0 1.25rem;
+  padding: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+.hauler-points li {
+  background: var(--white);
+  border: 1px solid var(--rule);
+  padding: 0.95rem 1rem;
+  border-left: 3px solid var(--rust);
+}
+.hauler-points strong { display: block; margin-bottom: 0.2rem; }
+
+.guide-kicker {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: var(--muted);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin: 0 0 0.35rem;
+}

@@ -4,4 +4,4 @@ Disallow: /cities/_template.html
 Disallow: /ops/
 Disallow: /data/
 
-Sitemap: https://whichdumpster.com/sitemap.xml
+Sitemap: https://craigja88-sudo.github.io/sitemap.xml

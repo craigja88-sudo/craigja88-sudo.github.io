@@ -23,7 +23,7 @@ Then open http://127.0.0.1:8765/ . Opening the HTML files directly also works (s
 8. Keep the in-content affiliate line next to the quote CTA: “We may earn a commission if you book through this site.”
 9. Leave **Local haulers** as “Coming soon” until you have a verified company.
 
-Nightly publishes can take the next row from `data/city-queue.json` (~40 real US cities waiting).
+Nightly publishes can take the next row from `data/city-queue.json` (real US cities waiting).
 
 ## Pages
 
@@ -31,9 +31,11 @@ Nightly publishes can take the next row from `data/city-queue.json` (~40 real US
 - `sizes.html` — 10/15/20/30/40 yard guide + project chooser.
 - `permits.html` — driveway vs street; check with the city; no invented fees.
 - `pricing.html` — honest US ranges; weight, days, distance, overage.
-- `cities/` — city guides. Launch set includes Miami, Houston, Dallas, Austin, Phoenix, Atlanta, Denver, Tampa, Charlotte, Orlando, Nashville.
-- `for-haulers.html` — mailto:craigja88@gmail.com.
-- `privacy.html` — stub.
+- `cities/` — city guides. Miami stays featured on the homepage.
+- `guides/` — roof, kitchen remodel, garage cleanout, whole-house cleanout, concrete/dirt (weight warning).
+- `for-haulers.html` — featured listing, finder's fee on completed jobs, 60-day out. mailto:craigja88@gmail.com.
+- `privacy.html` — operator, email, form behavior, fonts, affiliates.
+- `404.html` — GitHub Pages not-found page.
 
 Quote CTAs are placeholders for later affiliate wiring.
 

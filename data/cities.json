@@ -64,5 +64,125 @@
     "slug": "nashville-tn",
     "state": "TN",
     "stateName": "Tennessee"
+  },
+  {
+    "name": "Chicago",
+    "slug": "chicago-il",
+    "state": "IL",
+    "stateName": "Illinois"
+  },
+  {
+    "name": "Los Angeles",
+    "slug": "los-angeles-ca",
+    "state": "CA",
+    "stateName": "California"
+  },
+  {
+    "name": "San Antonio",
+    "slug": "san-antonio-tx",
+    "state": "TX",
+    "stateName": "Texas"
+  },
+  {
+    "name": "San Diego",
+    "slug": "san-diego-ca",
+    "state": "CA",
+    "stateName": "California"
+  },
+  {
+    "name": "Jacksonville",
+    "slug": "jacksonville-fl",
+    "state": "FL",
+    "stateName": "Florida"
+  },
+  {
+    "name": "Fort Worth",
+    "slug": "fort-worth-tx",
+    "state": "TX",
+    "stateName": "Texas"
+  },
+  {
+    "name": "Columbus",
+    "slug": "columbus-oh",
+    "state": "OH",
+    "stateName": "Ohio"
+  },
+  {
+    "name": "Indianapolis",
+    "slug": "indianapolis-in",
+    "state": "IN",
+    "stateName": "Indiana"
+  },
+  {
+    "name": "Seattle",
+    "slug": "seattle-wa",
+    "state": "WA",
+    "stateName": "Washington"
+  },
+  {
+    "name": "Portland",
+    "slug": "portland-or",
+    "state": "OR",
+    "stateName": "Oregon"
+  },
+  {
+    "name": "Las Vegas",
+    "slug": "las-vegas-nv",
+    "state": "NV",
+    "stateName": "Nevada"
+  },
+  {
+    "name": "Detroit",
+    "slug": "detroit-mi",
+    "state": "MI",
+    "stateName": "Michigan"
+  },
+  {
+    "name": "Memphis",
+    "slug": "memphis-tn",
+    "state": "TN",
+    "stateName": "Tennessee"
+  },
+  {
+    "name": "Baltimore",
+    "slug": "baltimore-md",
+    "state": "MD",
+    "stateName": "Maryland"
+  },
+  {
+    "name": "Milwaukee",
+    "slug": "milwaukee-wi",
+    "state": "WI",
+    "stateName": "Wisconsin"
+  },
+  {
+    "name": "Albuquerque",
+    "slug": "albuquerque-nm",
+    "state": "NM",
+    "stateName": "New Mexico"
+  },
+  {
+    "name": "Tucson",
+    "slug": "tucson-az",
+    "state": "AZ",
+    "stateName": "Arizona"
+  },
+  {
+    "name": "Sacramento",
+    "slug": "sacramento-ca",
+    "state": "CA",
+    "stateName": "California"
+  },
+  {
+    "name": "Kansas City",
+    "slug": "kansas-city-mo",
+    "state": "MO",
+    "stateName": "Missouri"
+  },
+  {
+    "name": "Raleigh",
+    "slug": "raleigh-nc",
+    "state": "NC",
+    "stateName": "North Carolina"
   }
 ]
