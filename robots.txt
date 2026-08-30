@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /cities/_template.html
+Disallow: /ops/
+Disallow: /data/
+
+Sitemap: https://whichdumpster.com/sitemap.xml

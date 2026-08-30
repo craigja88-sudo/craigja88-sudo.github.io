@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Chicago",
+    "slug": "chicago-il",
+    "state": "IL"
+  },
+  {
+    "name": "Los Angeles",
+    "slug": "los-angeles-ca",
+    "state": "CA"
+  },
+  {
+    "name": "San Antonio",
+    "slug": "san-antonio-tx",
+    "state": "TX"
+  },
+  {
+    "name": "San Diego",
+    "slug": "san-diego-ca",
+    "state": "CA"
+  },
+  {
+    "name": "Jacksonville",
+    "slug": "jacksonville-fl",
+    "state": "FL"
+  },
+  {
+    "name": "Fort Worth",
+    "slug": "fort-worth-tx",
+    "state": "TX"
+  },
+  {
+    "name": "Columbus",
+    "slug": "columbus-oh",
+    "state": "OH"
+  },
+  {
+    "name": "Indianapolis",
+    "slug": "indianapolis-in",
+    "state": "IN"
+  },
+  {
+    "name": "Seattle",
+    "slug": "seattle-wa",
+    "state": "WA"
+  },
+  {
+    "name": "Portland",
+    "slug": "portland-or",
+    "state": "OR"
+  },
+  {
+    "name": "Las Vegas",
+    "slug": "las-vegas-nv",
+    "state": "NV"
+  },
+  {
+    "name": "Detroit",
+    "slug": "detroit-mi",
+    "state": "MI"
+  },
+  {
+    "name": "Memphis",
+    "slug": "memphis-tn",
+    "state": "TN"
+  },
+  {
+    "name": "Baltimore",
+    "slug": "baltimore-md",
+    "state": "MD"
+  },
+  {
+    "name": "Milwaukee",
+    "slug": "milwaukee-wi",
+    "state": "WI"
+  },
+  {
+    "name": "Albuquerque",
+    "slug": "albuquerque-nm",
+    "state": "NM"
+  },
+  {
+    "name": "Tucson",
+    "slug": "tucson-az",
+    "state": "AZ"
+  },
+  {
+    "name": "Sacramento",
+    "slug": "sacramento-ca",
+    "state": "CA"
+  },
+  {
+    "name": "Kansas City",
+    "slug": "kansas-city-mo",
+    "state": "MO"
+  },
+  {
+    "name": "Raleigh",
+    "slug": "raleigh-nc",
+    "state": "NC"
+  },
+  {
+    "name": "Minneapolis",
+    "slug": "minneapolis-mn",
+    "state": "MN"
+  },
+  {
+    "name": "Tulsa",
+    "slug": "tulsa-ok",
+    "state": "OK"
+  },
+  {
+    "name": "Cleveland",
+    "slug": "cleveland-oh",
+    "state": "OH"
+  },
+  {
+    "name": "New Orleans",
+    "slug": "new-orleans-la",
+    "state": "LA"
+  },
+  {
+    "name": "Pittsburgh",
+    "slug": "pittsburgh-pa",
+    "state": "PA"
+  },
+  {
+    "name": "Cincinnati",
+    "slug": "cincinnati-oh",
+    "state": "OH"
+  },
+  {
+    "name": "St. Louis",
+    "slug": "st-louis-mo",
+    "state": "MO"
+  },
+  {
+    "name": "Oklahoma City",
+    "slug": "oklahoma-city-ok",
+    "state": "OK"
+  },
+  {
+    "name": "Louisville",
+    "slug": "louisville-ky",
+    "state": "KY"
+  },
+  {
+    "name": "Riverside",
+    "slug": "riverside-ca",
+    "state": "CA"
+  },
+  {
+    "name": "Greensboro",
+    "slug": "greensboro-nc",
+    "state": "NC"
+  },
+  {
+    "name": "St. Petersburg",
+    "slug": "st-petersburg-fl",
+    "state": "FL"
+  },
+  {
+    "name": "Durham",
+    "slug": "durham-nc",
+    "state": "NC"
+  },
+  {
+    "name": "Madison",
+    "slug": "madison-wi",
+    "state": "WI"
+  },
+  {
+    "name": "Birmingham",
+    "slug": "birmingham-al",
+    "state": "AL"
+  },
+  {
+    "name": "Richmond",
+    "slug": "richmond-va",
+    "state": "VA"
+  },
+  {
+    "name": "Boise",
+    "slug": "boise-id",
+    "state": "ID"
+  },
+  {
+    "name": "Salt Lake City",
+    "slug": "salt-lake-city-ut",
+    "state": "UT"
+  },
+  {
+    "name": "Grand Rapids",
+    "slug": "grand-rapids-mi",
+    "state": "MI"
+  },
+  {
+    "name": "Knoxville",
+    "slug": "knoxville-tn",
+    "state": "TN"
+  }
+]

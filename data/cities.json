@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Miami",
+    "slug": "miami-fl",
+    "state": "FL",
+    "stateName": "Florida"
+  },
+  {
+    "name": "Houston",
+    "slug": "houston-tx",
+    "state": "TX",
+    "stateName": "Texas"
+  },
+  {
+    "name": "Dallas",
+    "slug": "dallas-tx",
+    "state": "TX",
+    "stateName": "Texas"
+  },
+  {
+    "name": "Austin",
+    "slug": "austin-tx",
+    "state": "TX",
+    "stateName": "Texas"
+  },
+  {
+    "name": "Phoenix",
+    "slug": "phoenix-az",
+    "state": "AZ",
+    "stateName": "Arizona"
+  },
+  {
+    "name": "Atlanta",
+    "slug": "atlanta-ga",
+    "state": "GA",
+    "stateName": "Georgia"
+  },
+  {
+    "name": "Denver",
+    "slug": "denver-co",
+    "state": "CO",
+    "stateName": "Colorado"
+  },
+  {
+    "name": "Tampa",
+    "slug": "tampa-fl",
+    "state": "FL",
+    "stateName": "Florida"
+  },
+  {
+    "name": "Charlotte",
+    "slug": "charlotte-nc",
+    "state": "NC",
+    "stateName": "North Carolina"
+  },
+  {
+    "name": "Orlando",
+    "slug": "orlando-fl",
+    "state": "FL",
+    "stateName": "Florida"
+  },
+  {
+    "name": "Nashville",
+    "slug": "nashville-tn",
+    "state": "TN",
+    "stateName": "Tennessee"
+  }
+]
