@@ -190,5 +190,11 @@
     "slug": "minneapolis-mn",
     "state": "MN",
     "stateName": "Minnesota"
+  },
+  {
+    "name": "Tulsa",
+    "slug": "tulsa-ok",
+    "state": "OK",
+    "stateName": "Oklahoma"
   }
 ]
