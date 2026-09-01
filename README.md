@@ -14,7 +14,7 @@ Then open http://127.0.0.1:8765/ . Opening the HTML files directly also works (s
 
 1. Pick a real US city. Choose a slug like `miami-fl` (city, hyphen, lowercase state abbreviation).
 2. Copy `cities/_template.html` to `cities/{slug}.html`.
-3. Replace `{{CITY}}`, `{{ST}}`, `{{STATE_NAME}}`, and `{{SLUG}}`. Write a short local intro that is generally true (climate, construction mix, city vs county permit desks). **Do not invent company names, phones, reviews, or municipal fees.**
+3. Replace `{{CITY}}`, `{{ST}}`, `{{STATE_NAME}}`, and `{{SLUG}}`. Write a short local intro that is generally true (climate, construction mix, city vs county desks). **Do not invent company names, phones, reviews, or municipal fees.** Link verified official city/county permit pages. Do not state driveway-vs-street permit rules — we are not giving legal advice.
 4. Add the city to `data/cities.json`:
    `{"name": "Miami", "slug": "miami-fl", "state": "FL", "stateName": "Florida"}`
 5. Remove that object from `data/city-queue.json` if it was queued.
@@ -29,7 +29,7 @@ Nightly publishes can take the next row from `data/city-queue.json` (real US cit
 
 - `index.html` — city search as the front door, how it works, size snapshot, quote placeholder (FTC disclosure by the CTA). National database, no launch-city featured block.
 - `sizes.html` — 10/15/20/30/40 yard guide + project chooser.
-- `permits.html` — driveway vs street; check with the city; no invented fees.
+- `permits.html` — official city/county permit resource links; not legal advice; no invented fees.
 - `pricing.html` — honest US ranges; weight, days, distance, overage.
 - `cities/` — city guides. Treat every city equally; do not pin Miami.
 - `guides/` — roof, kitchen remodel, garage cleanout, whole-house cleanout, concrete/dirt (weight warning).

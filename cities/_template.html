@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Dumpster rental in {{CITY}} — Dumpster Directory</title>
-<meta name="description" content="Dumpster rental in {{CITY}}, {{ST}}: sizes, driveway vs street permits, honest price ranges, and a quote request. Local hauler listings coming soon.">
+<meta name="description" content="Dumpster rental in {{CITY}}, {{ST}}: sizes, official permit resource links, honest price ranges, and a quote request. Local hauler listings coming soon.">
 <link rel="canonical" href="https://craigja88-sudo.github.io/cities/{{SLUG}}.html">
 <meta property="og:title" content="Dumpster rental in {{CITY}} — Dumpster Directory">
-<meta property="og:description" content="Dumpster rental in {{CITY}}, {{ST}}: sizes, driveway vs street permits, honest price ranges, and a quote request. Local hauler listings coming soon.">
+<meta property="og:description" content="Dumpster rental in {{CITY}}, {{ST}}: sizes, official permit resource links, honest price ranges, and a quote request. Local hauler listings coming soon.">
 <meta property="og:url" content="https://craigja88-sudo.github.io/cities/{{SLUG}}.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Dumpster Directory">
@@ -18,7 +18,7 @@
 <meta property="og:image:alt" content="Dumpster Directory — US dumpster rental directory">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Dumpster rental in {{CITY}} — Dumpster Directory">
-<meta name="twitter:description" content="Dumpster rental in {{CITY}}, {{ST}}: sizes, driveway vs street permits, honest price ranges, and a quote request. Local hauler listings coming soon.">
+<meta name="twitter:description" content="Dumpster rental in {{CITY}}, {{ST}}: sizes, official permit resource links, honest price ranges, and a quote request. Local hauler listings coming soon.">
 <meta name="twitter:image" content="https://craigja88-sudo.github.io/og-image.png">
 <meta name="theme-color" content="#161410">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
@@ -53,14 +53,17 @@
   <p class="crumbs"><a href="../index.html">Home</a> / <a href="index.html">Cities</a> / {{CITY}}</p>
   <p class="meta-row">{{CITY}}, {{STATE_NAME}}</p>
   <h1>Dumpster rental in {{CITY}}</h1>
-  <p class="lede">Write 2–3 short paragraphs that are generally true: climate, construction mix, city vs suburb vs county permit desks. Do not invent fees, companies, phones, or reviews.</p>
-  <p>Replace this template copy. Keep driveway vs street. Send readers to the official permit office.</p>
+  <p class="lede">Write 2–3 short paragraphs that are generally true: climate, construction mix, city vs suburb vs county desks. Do not invent fees, companies, phones, or reviews.</p>
+  <p>Replace this template copy. Link the official city/county permit page. Do not invent fees or state driveway-vs-street rules.</p>
   <h2>Sizes that actually get used</h2>
   <p>Same US sizes: 10, 15, 20, 30, and 40 cubic yards. Most home projects land on a 10-yard or a 20-yard. <a href="../sizes.html">Size guide and chooser</a>.</p>
   <h2>Pricing recap</h2>
   <p>Point at national ranges on the pricing page. Mention only local factors that are generally true (storm spikes, mountain mileage, tight infill). No fake from-$99. <a href="../pricing.html">What changes the bill</a>.</p>
-  <h2>Permits in {{CITY}}</h2>
-  <p>Name the city/county split if it is real. Do not publish a dollar fee. <a href="../permits.html">Driveway vs street</a>.</p>
+  <h2>Permit resources in {{CITY}}</h2>
+  <p>Dumpster Directory does not give legal advice. Permit rules, fees, and applications are set by {{CITY}} / the county. Use the official pages below — we do not invent fees, phones, or government URLs. Paste verified official .gov or city-site URLs only. <a href="../permits.html">Permit resources</a>.</p>
+  <ul class="plain">
+    <li><a href="{{PERMIT_URL}}">{{PERMIT_LABEL}}</a></li>
+  </ul>
   <h2 id="quotes">Get quotes in {{CITY}}</h2>
   <p>Matching is not live yet. Email <a href="mailto:craigja88@gmail.com">craigja88@gmail.com</a>.</p>
   <p class="disclosure">We may earn a commission if you book through this site.</p>
@@ -101,7 +104,7 @@
         <input id="q-email" name="email" type="email" autocomplete="email" required>
       </div>
       <div class="form-row">
-        <label for="q-notes">Notes (dates, driveway vs street)</label>
+        <label for="q-notes">Notes (dates, placement)</label>
         <textarea id="q-notes" name="notes"></textarea>
       </div>
       <button class="btn" type="submit">Request quotes</button>
