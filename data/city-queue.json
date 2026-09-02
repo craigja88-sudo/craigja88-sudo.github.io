@@ -1,10 +1,5 @@
 [
   {
-    "name": "Cleveland",
-    "slug": "cleveland-oh",
-    "state": "OH"
-  },
-  {
     "name": "New Orleans",
     "slug": "new-orleans-la",
     "state": "LA"

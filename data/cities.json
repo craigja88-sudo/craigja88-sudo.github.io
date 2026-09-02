@@ -196,5 +196,11 @@
     "slug": "tulsa-ok",
     "state": "OK",
     "stateName": "Oklahoma"
+  },
+  {
+    "name": "Cleveland",
+    "slug": "cleveland-oh",
+    "state": "OH",
+    "stateName": "Ohio"
   }
 ]
