@@ -202,5 +202,11 @@
     "slug": "cleveland-oh",
     "state": "OH",
     "stateName": "Ohio"
+  },
+  {
+    "name": "New Orleans",
+    "slug": "new-orleans-la",
+    "state": "LA",
+    "stateName": "Louisiana"
   }
 ]
