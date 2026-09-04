@@ -208,5 +208,11 @@
     "slug": "new-orleans-la",
     "state": "LA",
     "stateName": "Louisiana"
+  },
+  {
+    "name": "Pittsburgh",
+    "slug": "pittsburgh-pa",
+    "state": "PA",
+    "stateName": "Pennsylvania"
   }
 ]
