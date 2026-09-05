@@ -214,5 +214,11 @@
     "slug": "pittsburgh-pa",
     "state": "PA",
     "stateName": "Pennsylvania"
+  },
+  {
+    "name": "Cincinnati",
+    "slug": "cincinnati-oh",
+    "state": "OH",
+    "stateName": "Ohio"
   }
 ]
